@@ -1,0 +1,33 @@
+.eve{
+	overflow: hidden;
+}
+
+.eve .col{
+  display: inline-block;
+  padding: 1em;
+  width: 26em;
+}
+
+.eve .col .card{
+	background-color: white;
+}
+
+.eve .col .card img{
+  width: 24em;
+  height: 14em;
+}
+
+.eve .col .card  a{
+	text-decoration: none;
+	color: black;
+	display: block;
+	padding: 1em;
+	font-size: 1.5em;
+}
+
+.eve .col .card:hover{
+	box-shadow: 0px 5px 40px rgba(204,33,5,0.5);	
+}
+.eve .col .card a:hover{
+	color: blue;
+}

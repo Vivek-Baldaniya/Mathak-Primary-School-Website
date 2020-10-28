@@ -1,0 +1,106 @@
+*{
+	box-sizing: border-box;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Arial;
+	background: #f1f1f1;
+	margin: 5px;
+}
+
+/* vision-mission */
+.vision-mission{
+	background-image: url(../img/l4.jpg);
+	background-position: center;
+	background-size: cover;
+	border-radius: 10px;
+	margin: 20px;
+}
+
+.vision-mission .col{
+	display: inline-block;
+}
+.vision-mission .col .card img{
+	width: 100%;
+	height: 30em;
+	padding: 2em;
+}
+
+.vision-mission .col .card h1{
+	color: yellow;
+	font-size: 35px;
+	margin: 20px;
+}
+
+.vision-mission .col .card p{
+	color: white;
+	font-size: 20px;
+	margin: 20px;
+	text-align: justify;
+}
+/* slider */
+.slider{
+	overflow: hidden;
+	height: 100%;
+}
+
+.slider figure section{
+	float: left;
+	width: 20%;
+}
+
+.slider figure img{
+	width: 100%;
+	height: 45em;
+	padding: 1.5em;
+	float: left;
+}
+
+.slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0px;
+	left: 0;
+	animation: 25s slide infinite;
+}
+
+@keyframes slide{
+	0%{
+		left: 0%;
+	}
+	14%{
+		left: 0%;
+	}
+	16%{
+		left: -100%;
+	}
+	26%{
+		left: -100%;
+	}
+	28%{
+		left: -200%;
+	}
+	38%{
+		left: -200%;
+	}
+	40%{
+		left: -300%;
+	}
+	50%{
+		left: -300%;
+	}
+	52%{
+		left: -400%;
+	}
+	70%{
+		left: -400%;
+	}
+	100%{
+		left:0;
+	}
+}

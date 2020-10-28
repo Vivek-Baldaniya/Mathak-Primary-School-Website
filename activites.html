@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activites</title>
+	<script src="https://code.jquery.com/jquery-3.5.1.js" crossorigin="anonymous"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".button").click(function(){
+				var name = $(this).attr("data-filter");
+				if (name == "all") {
+					$(".row").show("3000");
+				}
+				else{
+					$(".row").not("."+name).hide("3000");
+					$(".row").filter("."+name).show("3000");
+				}
+			});
+		});
+	</script>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/activites.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/events.css">
+
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+</head>
+<body>
+	<section class="nav-bar">
+		<img src="img/15.jpeg">
+		<section class="menu_right ">
+			<span onclick="myFunction()">&#9776;</span>
+			<nav id="menu">  
+		      <a href="Home.html" target="_blank">Home</span></a>
+		      <a href="About.html" target="_blank">About Us</span></a>
+		      <a href="Contact.html" target="_blank">Contact us</span></a>
+		      <a href="Faculties.html" target="_blank">Faculties</span></a>
+		      <a href="activites.html" target="_blank">Activites</span></a>
+			</nav>
+		</section>
+	</section>
+
+	<!-- events -->
+	<button class="btn button active" data-filter="all"> Show all</button>
+	<center>
+	<section class="eve animate__animated animate__fadeInRight">
+		<section class="col">
+			<section class="card">
+				<img src="img\y5.jpg">
+				<a href="activites.html.#yoga_day" target="_parent" class="button" data-filter="one">National Yoga Day</a>
+			</section>
+		</section>
+		<section class="col">
+			<section class="card">
+				<img src="img\r5.jpg">
+				<a href="activites.html.#Rakshabandhan" target="_parent" class="button" data-filter="two">Rakshabandhan Celebration</a>
+			</section>
+		</section>
+		<section class="col">
+			<section class="card">
+				<img src="img\science3.png">
+				<a href="activites.html.#Science" target="_parent" class="button" data-filter="three">Science Fair</a>
+			</section>
+		</section>
+	</section>
+	<section class="eve animate__animated animate__fadeInLeft">
+		<section class="col">
+			<section class="card">
+				<img src="img\s9.jpg">
+				<a href="activites.html.#Sports" target="_parent" class="button" data-filter="four">National Sports Day Celebration</a>
+			</section>
+		</section>
+		<section class="col">
+			<section class="card">
+				<img src="img\t4.jpg">
+				<a href="activites.html.#Teachers" target="_parent" class="button" data-filter="five">Teachers Day Celebration</a>
+			</section>
+		</section>
+		<section class="col">
+			<section class="card">
+				<img src="img\c4.jpg">
+				<a href="activites.html.#Bharat" target="_parent" class="button" data-filter="six">Swachh Bharat Abhiyan</a>
+			</section>
+		</section>
+	</section>
+	</center>
+
+	<!-- images-->
+	<center>
+	<section class="main">
+		<section class="row one">
+			<section id="yoga_day">
+				<h1>National Yoga Day</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/y1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/y2.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/y3.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/y4.jpg">
+				</section>
+			</section>
+		</section>
+
+		<section class="row two">
+			<section id="Rakshabandhan">
+				<h1>Rakshabandhan Celebration</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/r1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/r2.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/r3.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/r4.jpg">
+				</section>
+			</section>
+		</section>
+
+		<section class="row three">
+			<section id="Science">
+				<h1>Science Fair</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/science1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/science2.jpg">
+				</section>
+			</section>
+		</section>		
+
+		<section class="row four">
+			<section id="Sports">
+				<h1>National Sports Day Celebration</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s2.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s3.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s4.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s5.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s6.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s7.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/s8.jpg">
+				</section>
+			</section>
+		</section>
+
+		<section class="row five">
+			<section id="Teachers">
+				<h1>Teachers Day Celebration</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/t1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/t2.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/t3.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/3.jpg">
+				</section>
+			</section>
+		</section>
+
+		<section class="row six">
+			<section id="Bharat">
+				<h1>Swachh Bharat Abhiyan</h1>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/c1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/c2.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/c3.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/1.jpg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/2.jpeg">
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/4.jpg">
+				</section>
+			</section>
+		</section>
+	</section>
+	</center>
+	<!-- Footer -->
+
+	<section class="footer">
+		<section class="row">
+			<section class="col">
+				<section class="card">
+					<span>More Information</span>
+					<a href="Home.html" target="_blank">Home</span></a>
+				    <a href="About.html" target="_blank">About Us</span></a>
+				    <a href="Contact.html" target="_blank">Contact us</span></a>
+				    <a href="Faculties.html" target="_blank">Faculties</span></a>
+				    <a href="activites.html" target="_blank">Activites</span></a>
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<ul>
+						<li><span>Contact Us</span></li>
+						<li>Email: mathakprimaryschool@gmail.com</li>
+						<li>Phone: 9925317880</li>
+					</ul>
+				</section>
+			</section>
+			<section class="col">
+				<section class="card">
+					<img src="img/15.jpeg">
+				</section>
+			</section>
+		</section>
+	</section>
+
+	<script>
+		function myFunction() {
+			var x = document.getElementById("menu");
+
+			if (x.style.display == "block") {
+				x.style.display = "none";
+			}
+			else{
+				x.style.display = "block";
+			}
+		}
+	</script>
+</body>
+</html>

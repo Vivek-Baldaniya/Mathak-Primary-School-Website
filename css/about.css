@@ -1,0 +1,43 @@
+*{
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	font-family: Arial;
+	padding: 20px;
+	background-image: url(../img/b12.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	margin: 5px;
+}
+
+header h1{
+	text-align: center;
+	color: blue;
+}
+
+.col{
+	display: inline-block;
+	padding: 20px;
+	vertical-align: top;
+}
+
+.card {
+  max-width: 36em;
+  margin: auto;
+}
+
+.card img{
+  width: 100%;
+  height: 25em;
+  border-style: solid;
+}
+
+.card p{
+	text-align: justify;
+}
